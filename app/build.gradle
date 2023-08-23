@@ -30,6 +30,12 @@ android {
 
 dependencies {
 
+    //this library is used for external permission
+    implementation 'com.karumi:dexter:6.2.3'
+
+    //and this library is used for to play a video
+    implementation 'com.github.halilozercan:BetterVideoPlayer:kotlin-SNAPSHOT'
+
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
